@@ -1,6 +1,6 @@
 on:
   pull_request:
-    branches: ['test']
+    branches: ['main']
 jobs:
   demo:
     runs-on: ubunut-latest
