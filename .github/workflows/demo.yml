@@ -1,0 +1,9 @@
+on:
+  pull_request:
+    branches: ['test']
+jobs:
+  demo:
+    runs-on: ubunut-latest
+    name: haha
+    steps:
+      - run: echo aa
