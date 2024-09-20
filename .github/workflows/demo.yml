@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     name: haha
     steps:
-      - run: echo aa
+      - run: echo aa && echo ${{ 1+2 == 3 }}
