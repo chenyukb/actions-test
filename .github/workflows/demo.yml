@@ -1,0 +1,9 @@
+on:
+  pull_request:
+    branches: ['main']
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    name: haha
+    steps:
+      - run: echo aa && echo ${{ 1+2 == 3 }}
